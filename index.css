@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', 'Prompt', sans-serif;
+  padding: 48px;
+  background-color: #eeeeee;
+}
+
+.card {
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 96px;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.card-image {
+  width: 300px;
+  margin-left: 64px;
+}
+
+.promo-list {
+  margin-bottom: 32px;
+  list-style-type: none;
+}
+
+.label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.card-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 40px;
+  padding: 0px 24px;
+  background-color: #48b6a3;
+  color: white;
+  border-radius: 100px;
+  min-width: 180px;
+}
+
+.card-large {
+  width: 100%;
+  display: flex;
+}
+
+.card-medium {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.card-medium .card-button {
+  margin-left: 64px;
+}
+.card-small {
+  width: 33%;
+}
+
+.nav-container {
+  text-align: right;
+  padding: 16px 24px;
+}
+
+.nav-brand {
+  width: 68px;
+  height: 68px;
+  float: left;
+}
+.nav-item {
+  font-size: 14px;
+  color:darkslategray;
+  padding: 16px 0;
+  margin: 0 8px;
+}
+.image {
+  height: 240px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80');
+}
+.image-2 {
+  background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1489359413553-6c264fb36c83?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+.image-4 {
+  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+}
+.image-5 {
+  background-image: url('https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.image-6 {
+  background-image: url('https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+
+/* ---------------------------------------------------------------------------------------------------------
+ # Start writing your code here
+--------------------------------------------------------------------------------------------------------- */
+.card-large .card-title {
+  font-size: 48px;
+}
+
+
+
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product-item {
+}
+
+/* Make the list to have two columns on screen 768px >= width >= 513px*/
+@media (min-width: 513px) and (max-width: 768px) {
+}
+
+/* Make the list to have one column on screen width <= 512px*/
+@media screen and (max-width: 512px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ # Solution
+--------------------------------------------------------------------------------------------------------- */
+
+/*
+.card-large .card-title {
+  font-size: 48px;
+}
+
+.card-large .card-content {
+  font-size: 20px;
+}
+
+.card-large .card-button {
+  width: 180px;
+  margin-top: 64px;
+}
+
+
+.card-medium .card-title {
+  font-size: 32px;
+}
+
+.card-medium .card-content {
+  font-size: 16px;
+}
+
+.card-medium .card-button {
+  width: 180px;
+}
+
+
+.card-small .card-title {
+  font-size: 28px;
+}
+
+.card-small .card-title {
+  font-size: 16px;
+}
+
+.card-small .card-button {
+  width: 100%;
+  background-color: transparent;
+  color: #48b6a3;
+  margin-top: 24px;
+}
+*/
